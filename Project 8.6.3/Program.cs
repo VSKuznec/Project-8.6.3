@@ -11,8 +11,8 @@ namespace Task3
             {
                 DirectoryInfo folder = new DirectoryInfo("C:\\Repository");
                 
-                long totalFolderSize = FolderSize(folder);
-                Console.WriteLine("Размер папки в байтах: " + totalFolderSize);
+                long folderSizeBefore= FolderSize(folder);
+                Console.WriteLine("Размер папки в байтах: " + folderSizeBefore);
 
                 Delete(folder);
 
